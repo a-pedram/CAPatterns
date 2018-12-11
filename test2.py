@@ -20,8 +20,6 @@ def press(event):
         xl.set_visible(not visible)
         fig.canvas.draw()
 
-# Fixing random state for reproducibility
-np.random.seed(19680801)
 
 
 fig, ax = plt.subplots()
